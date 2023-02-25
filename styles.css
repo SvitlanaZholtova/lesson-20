@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  background-image: url("./assets/Rectangle 256.png");
+  color: #ffffff;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: 78px auto;
+  grid-template-rows: 1 1;
+  grid-column-gap: 20px;
+  /*position: absolute;*/
+  top: 58px;
+  left: calc(50% - 232px);
+  width: 464px;
+  height: 96px;
+  font-weight: 800;
+}
+
+img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.rr {
+  grid-column-start: 2;
+  justify-self: stretch;
+  font-size: 27px;
+  padding: 0;
+}
+
+.primary_btn {
+  margin-top: 50px;
+  /* position: absolute;*/
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  left: calc(50% - 187px);
+  top: 204px;
+  border-radius: 59px;
+  width: 374px;
+  height: 64px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+}
+
+.help {
+  color: #48924F;
+  font-size: 18px;
+  border-radius: 35px;
+  background: radial-gradient(#FFFFFF, #F9F9F9);
+  width: 180px;
+  height: 70px;
+  border: 0;
+}
+
+.lorem {
+  font-size: 144px;
+  line-height: 134.5px;
+  font-weight: 900;
+}/*# sourceMappingURL=styles.css.map */
